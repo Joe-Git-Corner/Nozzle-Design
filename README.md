@@ -7,11 +7,21 @@ This project provides a set of Python scripts for the preliminary design and ana
 The toolkit currently focuses on:
 * **Isentropic Flow Calculations:** Determining pressure, temperature, and Mach number relationships.
 * **Conical Nozzle Performance:** Calculating thrust, specific impulse (Isp), mass flow rate, etc., based on a conical approximation for optimal expansion.
-* **Rao Bell Nozzle Geometry:** Generating the contour coordinates for a thrust-optimized parabolic (Rao) bell nozzle based on empirical data and specified length percentage.
+* **Rao Bell Nozzle Geometry:** Generating the contour coordinates for a thrust-optimised parabolic (Rao) bell nozzle based on empirical data and specified length percentage.
 * **Normal Shock Check:** Determining the flow regime (subsonic, supersonic, shock in nozzle, shock at exit) based on the nozzle area ratio and back pressure ratio.
 * **Visualization:** Plotting key performance characteristics and generating 2D/3D plots of the bell nozzle contour.
 * **Data Export:** Saving bell nozzle contour coordinates to CSV files.
 * **Parameter Sweeps:** Iterating over ranges of input parameters (like stagnation temperature and throat radius) to study their impact on performance and geometry.
+
+## Purposes: 
+This toolkit was developed with several key objectives in mind:
+
+* **Educational Exploration:** To provide an accessible, Python-based tool for students, hobbyists, and engineers to learn about and experiment with fundamental rocket nozzle design principles, including isentropic flow, shock phenomena, and geometric design trade-offs.
+* **Preliminary Design Analysis:** To assist in the early stages of nozzle design by enabling quick calculations of performance metrics (like Isp and thrust) and geometric parameters (such as Rao bell nozzle contours) for given input conditions.
+* **Parameter Sensitivity Studies:** To facilitate the understanding of how nozzle performance and dimensions are affected by variations in key operational parameters. The built-in parameter sweep functionality (e.g., varying stagnation temperature and throat radius) allows users to explore these sensitivities systematically.
+* **Verification and Benchmarking:** To serve as a computational aid for verifying calculations from other sources or simpler models, particularly for applications such as plasma thrusters or cold gas systems, where isentropic flow models are a relevant starting point.
+* **Foundation for Optimisation:** While not a full optimisation suite, the toolkit provides the necessary calculations (performance and geometry) that can inform more detailed nozzle optimisation studies, including considerations for factors like nozzle weight (which correlates with dimensions).
+
 
 ## Features
 
@@ -21,7 +31,7 @@ The toolkit currently focuses on:
 * Calculates pressure boundaries for different flow regimes.
 * Checks for the potential location of a normal shock within the nozzle based on the ambient pressure.
 * Determines the required exit area ratio (Ae/At) for optimal expansion to a specified ambient pressure.
-* Calculates the contour of an 80% Rao optimized bell nozzle for the determined area ratio.
+* Calculates the contour of an 80% Rao optimised bell nozzle for the determined area ratio.
 * Exports bell nozzle contour data to CSV.
 * Modular code structure for clarity and potential extension.
 
@@ -52,7 +62,7 @@ Primary inputs are defined near the top of `main_nozzle_analysis.py`:
 
 ## Workflow & Algorithm
 
-The main script (`main_nozzle_analysis.py`) orchestrates the analysis based on the following workflow (visualized in `Nozzle Calc workflow.jpg`):
+The main script (`main_nozzle_analysis.py`) orchestrates the analysis based on the following workflow (visualised in `Nozzle Calc workflow.jpg`):
 
 1.  **Inputs:** Define primary inputs (stagnation conditions P0, T0; ambient pressure P_ambient; throat radius R_throat; material properties gamma, M_molar; geometry parameters R_chamber, angles, bell length %). Parameter ranges for T0 and R_throat can also be defined for sweeps.
 2.  **Nozzle Performance Calculation (`nozzle_calculator.py`):**
@@ -73,7 +83,7 @@ The main script (`main_nozzle_analysis.py`) orchestrates the analysis based on t
     * Results (performance metrics, shock status, dimensions) are printed to the console.
     * If calculated, the bell nozzle contour is plotted in 2D (with dimensions) and 3D.
     * Bell nozzle contour points are saved to a CSV file.
-    * If a parameter sweep is run, trend plots summarizing the results are generated.
+    * If a parameter sweep is run, trend plots summarising the results are generated.
 
 ## File Structure
 ```
@@ -98,7 +108,7 @@ The main script (`main_nozzle_analysis.py`) orchestrates the analysis based on t
 
 * **`main_nozzle_analysis.py`**: Entry point. Defines inputs, orchestrates calls to modules, handles parameter sweeps, prints summaries, and manages overall workflow.
 * **`nozzle_lib/nozzle_calculator.py`**: Contains functions for 1D isentropic flow calculations and nozzle performance metrics based on a conical nozzle approximation. Includes an optional function to plot flow properties.
-* **`nozzle_lib/bell_nozzle_module.py`**: Implements the Rao method for generating thrust-optimized parabolic bell nozzle contours. Provides functions for 2D and 3D plotting and CSV export of the contour.
+* **`nozzle_lib/bell_nozzle_module.py`**: Implements the Rao method for generating thrust-optimised parabolic bell nozzle contours. Provides functions for 2D and 3D plotting and CSV export of the contour.
 * **`nozzle_lib/shock_calculator.py`**: Calculates pressure boundaries for different nozzle flow regimes and determines the location of a normal shock inside the nozzle if conditions dictate. Based on methods described by JoshTheEngineer.
 
 ## How to Run
@@ -138,7 +148,7 @@ The main script (`main_nozzle_analysis.py`) orchestrates the analysis based on t
 
 * **Python 3.x**
 * **NumPy:** For numerical operations (`pip install numpy`)
-* **SciPy:** For optimization (fsolve) (`pip install scipy`)
+* **SciPy:** For optimisation (fsolve) (`pip install scipy`)
 * **Matplotlib:** For plotting (`pip install matplotlib`)
 * **(Optional) Pandas:** For saving sweep results to CSV easily (`pip install pandas`)
 
@@ -150,4 +160,4 @@ The main script (`main_nozzle_analysis.py`) orchestrates the analysis based on t
 
 ## License
 
-MIT License
+(Consider adding an open-source license file, e.g., MIT License, and stating it here).
