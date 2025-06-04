@@ -1,0 +1,7 @@
+2025-Jun-04 15:05:59
+Computer name:	JOE_LEGION
+Number of cores used in calculation:	24
+Configuration name:	Default
+Project name:	Nozzle propellant flow 1
+
+Warnings on last iteration: 

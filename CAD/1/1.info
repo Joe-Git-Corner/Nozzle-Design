@@ -1,0 +1,64 @@
+Model: Micro Nozzle Base Design.SLDPRT
+Project name: Nozzle propellant flow 1
+Config name: Default
+Project path: C:\Users\joe_a\OneDrive\Documents\Micro Nozzle design\Nozzle Design Git\Nozzle-Design\CAD\1\1.xmlconfig
+Status: Calculating
+
+Number of cells:
+    Total cells: 88771
+    Fluid cells: 88771
+    Solid cells: 80800
+    Fluid cells containing solids: 25208
+
+
+Geometry preparation finished: 14:28:08
+Geometry preparation time: 00:00:01
+Solver CPU time: 00:01:33
+Iterations: 214
+Travels: 0.08359
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 14:29:39
+CPU time per last iteration: 00:00:01
+CPU time left: 02:02:20
+Iterations per 1 travel: 2560
+
+Goals
+    Name                                              | Unit (SI)          | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    SG Stag pressure Mass Flow Rate                   | mass flow          |            0.00 |       0.0 |            0.00 |            0.00 | On
+    SG Stag pressure Volume Flow Rate                 | volumetric flow    |            0.08 |       0.0 |            0.00 |            0.00 | On
+    SG Stag pressure Velocity Av                      | speed and velocity |          266.92 |       0.0 |            0.00 |            5.29 | On
+    SG Stag pressure Temperature (Fluid) Bulk Average | temperature        |          206.68 |       0.0 |            0.00 |            7.91 | On
+    SG Stag pressure Absolute Total Enthalpy Rate     | heat flow          |           73.18 |       0.0 |            0.00 |            6.91 | On
+    SG Stag pressure Uniformity Index                 | no units           |            1.00 |       0.0 |            0.00 |            0.00 | On
+    SG Nozzle Outlet Mass Flow Rate                   | mass flow          |           -0.00 |       0.0 |            0.00 |            0.00 | On
+    SG Nozzle Outlet Volume Flow Rate                 | volumetric flow    |           -0.00 |       0.0 |            0.00 |            0.00 | On
+    SG Nozzle Outlet Velocity Av                      | speed and velocity |            0.00 |       0.0 |            0.00 |            0.00 | On
+    SG Nozzle Outlet Temperature (Fluid) Bulk Average | temperature        |          300.00 |    1000.0 |            0.00 |            2.43 | On
+    SG Nozzle Outlet Absolute Total Enthalpy Rate     | heat flow          |           -0.00 |       0.0 |            0.00 |            0.00 | On
+    SG Nozzle Outlet Uniformity Index                 | no units           |            0.56 |       0.0 |            0.00 |            0.47 | On
+
+Project details
+    Default fluids: Argon
+    Analysis type: Internal
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2024  x64 / 6320 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2024 SP2.0
+    Computer name: JOE_LEGION
+    User name: joe_a
+    Operating system: Windows 11 (or higher) (Version 10.0.26100)
+    Processors: 13th Gen Intel(R) Core(TM) i7-13700HX
+    Number of cores: 24
+    Memory: 14379 MB / 32508 MB
+

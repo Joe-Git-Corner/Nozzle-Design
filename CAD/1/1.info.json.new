@@ -1,0 +1,188 @@
+{
+    "version": 0,
+    "model_name": "Micro Nozzle Base Design.SLDPRT",
+    "project_name": "Nozzle propellant flow 1",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\joe_a\\OneDrive\\Documents\\Micro Nozzle design\\Nozzle Design Git\\Nozzle-Design\\CAD\\1\\1.xmlconfig",
+    "finished": false,
+    "mesh": {
+        "cells_total": 88771,
+        "cells_fluid": 88771,
+        "cells_solid": 80800,
+        "cells_fluid_containing_solid": 25208
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "14:28:08+1000",
+        "prepare_geometry_total_time": 1,
+        "cpu_time_solver_total": 94,
+        "iteration": 217,
+        "travel": 0.084765625,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "14:29:41+1000",
+        "cpu_time_per_last_iter": 0,
+        "cpu_time_left": 4046,
+        "iterations_per_travel": 2560
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "SG Stag pressure Mass Flow Rate",
+                "unit": "mass flow",
+                "value": 0.0005099047360957032,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 3.823780973645784e-05,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Stag pressure Volume Flow Rate",
+                "unit": "volumetric flow",
+                "value": 0.08376229458401463,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 0.0018006588523535733,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Stag pressure Velocity Av",
+                "unit": "speed and velocity",
+                "value": 266.8467347977974,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 5.7364705398962315,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Stag pressure Temperature (Fluid) Bulk Average",
+                "unit": "temperature",
+                "value": 206.71646373715382,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 8.583705421142241,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Stag pressure Absolute Total Enthalpy Rate",
+                "unit": "heat flow",
+                "value": 73.17996441396254,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 7.503732244139705,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Stag pressure Uniformity Index",
+                "unit": "no units",
+                "value": 0.9981837465785153,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 0.0007709962397023373,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Nozzle Outlet Mass Flow Rate",
+                "unit": "mass flow",
+                "value": -1.9953051641719718e-19,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 7.095752792877946e-20,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Nozzle Outlet Volume Flow Rate",
+                "unit": "volumetric flow",
+                "value": -9.347162503681846e-13,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 3.324060681560487e-13,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Nozzle Outlet Velocity Av",
+                "unit": "speed and velocity",
+                "value": 1.113270991849233e-09,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 5.230427239908623e-10,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Nozzle Outlet Temperature (Fluid) Bulk Average",
+                "unit": "temperature",
+                "value": 300.0000012942812,
+                "progress": 1000.0,
+                "criteria": 0.0,
+                "delta": 2.4274997782875403,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Nozzle Outlet Absolute Total Enthalpy Rate",
+                "unit": "heat flow",
+                "value": -3.124711335804208e-14,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 1.111217450424741e-14,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Nozzle Outlet Uniformity Index",
+                "unit": "no units",
+                "value": 0.5614741436618403,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 0.4664344328934371,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Argon"
+        ],
+        "analysis_type": "internal",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2024  x64 / 6320 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2024 SP2.0",
+        "computer_name": "JOE_LEGION",
+        "user_name": "joe_a",
+        "os": "Windows 11 (or higher) (Version 10.0.26100)",
+        "cpu": "13th Gen Intel(R) Core(TM) i7-13700HX",
+        "number_of_cores": 24,
+        "memory_avail": 14379,
+        "memory_total": 32508
+    }
+}

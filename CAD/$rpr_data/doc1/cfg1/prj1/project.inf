@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>Nozzle propellant flow 1</name>
+	<uuid>54576f40-75c1-43b2-b160-b486688dfd2b</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>1</vwr_res_files_dir>
+	<geom_db_uuid>cce5b9d3-ef97-445e-97c9-41390d335b55</geom_db_uuid>
+	<gdb_light_uuid>92fdfbd1-8a4d-45b2-a732-fcf20e93e6cf</gdb_light_uuid>
+	<model_geom_uuid>0f3c44a2-5160-4984-bdf1-5b5c3e8568f7</model_geom_uuid>
+	<template_id/>
+</project>
